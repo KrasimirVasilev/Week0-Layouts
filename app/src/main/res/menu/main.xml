@@ -1,8 +1,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_rotate_flag"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        android:showAsAction="never"
+        android:title="@string/action_rotate_flag" />
+
+    <item
+        android:id="@+id/action_middle"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/action_middle" />
+
+    <item
+        android:id="@+id/action_hard"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/action_hard" />
+
+    <item
+        android:id="@+id/action_image"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="@string/action_image" />
 </menu>
